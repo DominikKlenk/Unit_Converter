@@ -1,0 +1,22 @@
+{
+	"name": "Einheiten Umrechner",	
+	"description": "Eine App zu Umrechnung von Einheiten.",
+	"short_name": "Umrechner",
+
+	"icons" : [
+		{
+			"src": "images/Icon512x512.png",
+			"sizes": "512x512",
+			"typ": "image/png"
+		},
+		{
+			"src": "images/Icon256x256.png",
+			"sizes": "256x256",
+			"typ": "image/png"
+		}
+	],
+	"start_url": "./it_Beleg.html",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"theme_color": "#252557"
+}

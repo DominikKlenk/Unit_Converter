@@ -1,0 +1,103 @@
+.header1 {
+    color:black;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.kat-col label{
+    font-size: 20px;
+    background-color: rgb(25, 14, 77);
+    color:white;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    width:100%;
+    margin:0;
+}
+
+.kat-col select {
+    width:100%;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: #E0E0E0;
+}
+
+.eing1-col label{
+    font-size: 20px;
+    background-color: rgb(25, 14, 77);
+    color:white;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    width:100%;
+    margin:0;
+}
+
+.eing1-col input{
+    width:100%;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: #E0E0E0;
+}
+
+.eing2-col label{
+    font-size: 20px;
+    background-color: rgb(25, 14, 77);
+    color:white;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    width:100%;
+    margin:0;
+}
+
+.eing2-col input{
+    width:100%;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: #E0E0E0;
+}
+
+.einheit1-col label{
+    font-size: 20px;
+    background-color: rgb(25, 14, 77);
+    color:white;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    width:100%;
+    margin:0;
+}
+
+.einheit1-col select{
+    width:100%;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: #E0E0E0;
+}
+
+.einheit2-col label{
+    font-size: 20px;
+    background-color: rgb(25, 14, 77);
+    color:white;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    width:100%;
+    margin:0;
+}
+
+.einheit2-col select{
+    width:100%;
+    height: 40px;    
+    margin-bottom: 10px;
+    background-color: #E0E0E0;
+}
+
+.butt-col button{
+   margin:20px;
+}
+
+.butt-col p{
+    color:black;
+ }

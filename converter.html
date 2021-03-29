@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head> 
+	<title>Einheiten Umrechner</title>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="Weather PWA">
+	<link rel="apple-touch-icon" href="images/Icon256x256.png">
+	<meta name="description" content="Einheits Umrechner">
+	<meta name="theme-color" content="#2F3BA2" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="manifest" href="manifest.json">
+
+</head>
+<body>
+	<div class="container" align="center">
+
+		<header class="header1">	
+			<h1>EINHEITEN UMRECHNER</h1>	
+		</header>
+		
+		<div class="row">
+			<div class="col kat-col">
+				<label for="Kategorie">Kategorie auswählen:</label>	
+				<br>
+				<select id="Kategorie" onchange="fillKategorie(this); updateAusgabe()"></select>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col eing1-col">
+				<label for="Eingabe1">Zahl eingeben</label>
+				<br>
+				<input type="text" id="Eingabe1" oninput="updateAusgabe()" placeholder="Zahl eingeben" >
+			</div>
+			<div class="col eing2-col">
+				<label for="Eingabe2">Zahl eingeben</label>
+				<br>
+				<input type="text" id="Eingabe2" oninput="updateEingabe()" placeholder="Zahl eingeben">
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col einheit1-col">
+				<label for="Einheit-Eingabe">Einheit auswählen</label>
+				<br>
+				<select id="Einheit-Eingabe" onchange="updateEingabe()"></select> 	
+			</div>
+			<div class="col einheit2-col">
+				<label for="Einheit-Ausgabe">Einheit auswählen</label>
+				<br>
+				<select id="Einheit-Ausgabe" onchange="updateAusgabe()"></select>	
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col butt-col">
+				<button id="Update_Button">Update</button>
+				<p id="notification"></p>
+			</div>
+		</div>
+	</div>
+		
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="converter.js"></script>
+	<script type="text/javascript" src="sw.js"></script>
+
+</body>
+</html>
